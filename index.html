@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pump-Chest-Pump - CS 426 Senior Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+	    <div class="nav-brand">
+	        <a href="#" class="nav-logo">PCP</a>
+	    </div>
+	    
+	    <button class="nav-toggle" aria-label="toggle navigation" aria-expanded="false">
+	        <span class="hamburger"></span>
+	    </button>
+
+	    <div class="nav-menu">
+	        <a href="#team-section" class="nav-link">Team</a>
+	        <a href="#instructors-section" class="nav-link">Instructors</a>
+	        <a href="#advisor-section" class="nav-link">Advisor</a>
+	        <a href="#description-section" class="nav-link">Description</a>
+	        <a href="#resources-section" class="nav-link">Resources</a>
+	    </div>
+	</nav>
+    
+    <header role="banner">
+        <h1>Pump-Chest-Pump</h1>
+        <p>CS 426 Senior Project in Computer Science, Spring 2025</p>
+        <p>University of Nevada, Reno - CSE Department</p>
+    </header>
+
+    <main id="main-content" role="main">
+        <section aria-labelledby="team-section">
+            <h2 id="team-section">Team Information</h2>
+            <p>Team #30 - Pump-Chest-Pump</p>
+            <ul class="team-members">
+                <li>Yatin Wahi</li>
+                <li>Juno Suwanduan</li>
+                <li>Saransh Beniwal</li>
+                <li>Erik Sanchez</li>
+            </ul>
+        </section>
+
+        <section aria-labelledby="instructors-section">
+            <h2 id="instructors-section">Instructors and Teaching Assistants</h2>
+            <ul class="instructors">
+                <li>David Feil-Seifer - UNR CSE Department</li>
+                <li>Sara Davis - UNR CSE Department</li>
+                <li>Vinh Le - TA</li>
+                <li>Levi Scully - TA</li>
+            </ul>
+        </section>
+
+        <section aria-labelledby="advisor-section" class="advisor-section">
+            <h2 id="advisor-section">Project Advisor</h2>
+            <ul class="instructors">
+                <li>Tashin Karim (Software Engineer) - Big Data Analyst for Nevada's retirement system</li>
+            </ul>
+        </section>
+
+        <section aria-labelledby="description-section" class="description-section">
+            <h2 id="description-section">Project Description</h2>
+            <div id="description-content">
+                <p>Pump-Chest-Pump is a new fitness website that brings technology and exercises together for efficient and enjoyable workouts for attendees. With real-time tracking via webcam and an external heart monitor via a channel Bluetooth, real-time feedback can be delivered, proper form can be maintained and training intensity optimized. With a combination of sophisticated tracking and a web-accessible simple UI, actionable feedback for any fitness level, even beginners, is optimized for improvement, posture, and overall workout path.</p>
+                
+                <p>Our website addresses a big problem with fitness today: working out effectively and enjoyably. Poor form and inefficient and potentially damaging workout sessions become an issue for many, even beginners. Body concerns and intimidating environments at workout spaces discourage many from having in-person feedback for workout sessions. Pump-Chest-Pump bypasses such barriers with a private, immersive workout with immediate performance feedback. With a combination of posture feedback and heart analysis, a positive feedback loop is produced, with room for organized and routine workout sessions.</p>
+                
+                <p>Our website leverages a Flask backend with HTML, CSS, and JavaScript for front-end development work. OpenCV and MediaPipe make high-accuracy tracking a reality, and Chart.js can visualize performance information. Socket.IO can deliver real-time feedback, and PostgreSQL can store secure information with security. Cardiovascular intensity tracking through the use of the Polar H10 heart monitor can maximize workout efficiency.</p>
+
+                <p>Pump-Chest-Pump stands out in fitness technology with its real-time motion analysis and physiologic tracking in an accessible platform. Unlike platforms that enable mere planning of a workout or tracking a step, this platform employs dynamic, AI-enabled feedback in order to educate and motivate improvement in fitness and technique. With its future development capabilities, such as AI-guided direction for exercise, the project presents a model for virtual fitness coaching that can develop and evolve over time.</p>
+            </div>
+        </section>
+
+        <section aria-labelledby="resources-section" class="resources-section">
+            <h2 id="resources-section">Project Resources</h2>
+            
+            <h3>Problem Domain Book</h3>
+            <ul class="resources-list">
+                <li>
+                    <a href="#" class="resource-link" data-type="book">
+                        Slouch: Posture Panic In Modern America by Beth Linker
+                    </a>
+                </li>
+            </ul>
+
+            <h3>Related Websites</h3>
+            <ul class="resources-list">
+                <li>
+                    <a href="https://algoscale.com/blog/workout-pose-estimation-using-opencv-and-mediapipe/" class="resource-link" data-type="website" 
+                       aria-label="Algoscale">
+                        Algoscale: Workout Pose Estimation using OpenCV and MediaPipe
+                    </a>
+                </li>
+                <li>
+                    <a href="https://aryanvij02.medium.com/push-ups-with-python-mediapipe-open-a544bd9b4351" class="resource-link" data-type="website"
+                       aria-label="Push-Ups with Python!">
+                        Medium: Push-Ups with Python! (mediapipe + OpenCV)
+                    </a>
+                </li>
+            </ul>
+
+            <h3>Technical Documentation</h3>
+            <ul class="resources-list">
+                <li>
+                    <a href="https://ki-it.com/xml/32020/32020.pdf" class="resource-link" data-type="paper">
+                        Real-Time Workout Posture Correction using OpenCV and MediaPipe
+                    </a>
+                </li>
+                <li>
+                    <a href="https://arxiv.org/pdf/2006.11718" class="resource-link" data-type="paper">
+                        Pose Trainer: Correcting Exercise Posture using Pose Estimation
+                    </a>
+                </li>
+            </ul>
+
+            <h3>Related News and Technology Updates</h3>
+            <ul class="resources-list">
+                <li>
+                    <a href="https://www.opencv.ai/blog/ai-and-fitness-pose-tracking-technology" class="resource-link" data-type="website">
+                        AI and Fitness: Revolutionizing Exercise with Pose Tracking Technology
+                    </a>
+                </li>
+                <li>
+                    <a href="https://medium.com/@mohantydibyajyoti47/real-time-pose-estimation-for-fitness-applications-with-ai-and-computer-vision-opencv-and-c46afa77b9be" class="resource-link" data-type="news">
+                        Real-Time Pose Estimation for Fitness Applications with AI and Computer Vision
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
