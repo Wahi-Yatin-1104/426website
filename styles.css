@@ -240,7 +240,7 @@ h3 {
 .nav-logo {
     font-size: 1.5rem;
     font-weight: 800;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: var(--border-radius);
